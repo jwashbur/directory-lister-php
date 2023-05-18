@@ -10,7 +10,8 @@ use function DI\string;
 
 return [
     /** Path definitions */
-    'base_path' => dirname(__DIR__, 2),
+    # 'base_path' => dirname(__DIR__, 2),
+    'base_path' => dirname('/images'),
     'app_path' => dirname(__DIR__),
     'asset_path' => string('{app_path}/assets'),
     'cache_path' => string('{app_path}/cache'),
